@@ -6,7 +6,7 @@ public class DataTypeDemo {
     public static void main(String[] args) {
         //Primitive Data Types - embedded in the language:
         //Integral types: byte, short, int, long - whole number:
-        byte num = 1; //Declared and assigned a the same time
+        //byte num = 1; //Declared and assigned at the same time
         byte num2;
         num2 = 1;
         short num3;
@@ -41,9 +41,9 @@ public class DataTypeDemo {
         System.out.println("The area for the circle of radius " + radius + " is " + area);
 
         //Literal mean exact - this is what it is
-        String myName = "Ezra";
+        String myName = "Anthony";
 
-        char myChar = 35;
+        char myChar = 36;
 
         Scanner input = new Scanner(System.in);
 
