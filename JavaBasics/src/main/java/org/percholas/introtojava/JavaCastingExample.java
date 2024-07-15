@@ -33,13 +33,16 @@ public class JavaCastingExample {
         //Implicit type casting - automatic type conversion:
         int radius = 20;
         long l2 = radius;
+        @SuppressWarnings("unused")
         float f2 = l2;
 
         //Constant remains constant and we use the final keyword
+        @SuppressWarnings("unused")
         final String HER_NAME = "Surbhi";
         //HER_NAME="Asiya";
         System.out.println(name);
 
+        @SuppressWarnings("unused")
         String name1;
        // System.out.println(name1);
     }
